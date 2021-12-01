@@ -29,9 +29,9 @@ body {
 	-webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
 	-webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
 	-webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
-	background-color: #1f1f1f;
-	font-family: system-ui, -apple-system, -apple-system-font, 'Segoe UI',
-		'Roboto', sans-serif;
+	background-color: #f1f1f1;
+	font-family: 'Raleway', -apple-system, -apple-system-font, 'Raleway',
+		'proxima nova', sans-serif;
 	font-size: 12px;
 	height: 100vh;
 	margin: 0px;
@@ -39,18 +39,68 @@ body {
 	/* Padding to avoid the "unsafe" areas behind notches in the screen */
 	padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
 		env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
-	text-transform: uppercase;
 	width: 100%;
 }
 
 /* Portrait layout (default) */
 .app {
+	background-color: #1f1f1f;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 	width: 100%;
 	height: 100%;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	background-color: #1f1f1f;
+	z-index: 99;
+}
+
+footer {
+	position: fixed;
+	top: 100vh;
+	margin-top: -50px;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	background-color: #1f1f1f;
+	height: 50px;
+	z-index: 98;
+}
+
+footer img {
+	margin: 7px 0;
+}
+
+.logo {
+	width: 125px;
+	height: 35px;
+	padding: 12px 15px;
+}
+
+.img-block {
+	filter: brightness(65%);
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+}
+
+.profile {
+	width: 38x;
+	height: 38px;
+	border-radius: 40px;
+	margin: 8px 10px;
+}
+
+.profile img {
+	border: 2px solid #f1f1f1;
 }
 
 /* Landscape layout (with min-width) */
