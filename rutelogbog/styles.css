@@ -1,0 +1,114 @@
+.header{
+    background-color: #1f1f1f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+
+}
+
+.logo{
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+#profilepic{
+    text-align: center;
+    justify-content: space-around;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.titel{
+    font-size: 50px;
+    padding-left: 60px;
+    margin-bottom: 0px;
+}
+
+.log1{
+    display: flex;
+    border: 1px solid black;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+}
+
+#log1{
+    margin-top: 0%;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.log2{
+    display: flex;
+    border: 1px solid black;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    margin-right: 60px;
+}
+
+.colorbox1{
+  background-color: #439f0e;
+  height: 60px;
+  width: 150px;
+  border: 1px solid black;
+  margin-left: 65px;
+
+
+}
+
+.colorbox2{
+    background-color: #ffb300;
+    height: 60px;
+    width: 150px;
+    border: 1px solid black;
+    margin-left: 20px;
+  
+}
+
+.colorbox4{
+    background-color: #ffb300;
+    height: 60px;
+    width: 150px;
+    border: 1px solid black;
+    margin-left: 113px; 
+}
+
+.colorbox5{
+    background-color: #8b1577;
+    height: 60px;
+    width: 150px;
+    border: 1px solid black;
+    margin-left: 92px;
+  
+}
+
+#tilbage {
+    border: none;
+    height: 120px;
+    width: 250px;
+    color: white;
+    background-color: #1f1f1f;
+    text-align: center;
+    display: inline-block;
+    font-size: 48px;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    background-color: #1f1f1f;    
+  }
