@@ -21,34 +21,46 @@
     padding-top: 10px;
 }
 
-.profil{
-    display: flex;
-    padding-top: 200px;
-    justify-content: space-around;
+#mainpic{
+    size-adjust: 800px;
+    padding-top: 165px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
-#skiftbillede{
-    font-size: 50px;
-    margin-bottom: 5%;
-    text-align: center;
+.video-inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    font-size: 45px;
+    padding-left: 75px;
 }
 
-#skiftbilledeinput{
-    font-size: 30px;
-    padding-top: 0%;
+.listinputs{
+    font-size: 45px;
+    width: 300px;
 }
 
-p{
-    font-size: 50px;
-    padding-left: 60px;
-    margin-bottom: 0px;
+
+
+.tekst{
+    font-size: 45px;
+    padding-left: 75px;
+    margin-bottom: 0%;
 }
 
-.input{
-    margin-left: 60px;
-    width: 830px;
-    height: 80px;
-    font-size: 50px;
+.titelinput{
+    margin-left: 75px;
+    width: 650px;
+    height: 50px;
+    font-size: 45px;
+}
+
+.beskrivelse{
+    margin-left: 75px;
+    width: 650px;
+    font-size: 45px;
+    height: 250px;
 }
 
 #tilbage {
@@ -63,7 +75,7 @@ p{
     border-radius: 20px;
   }
 
-#gemændringer{
+#upload{
     border: none;
     height: 120px;
     width: 400px;
@@ -79,6 +91,7 @@ p{
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .footer{
@@ -93,4 +106,5 @@ p{
     width: 100%;
     text-align: center;
     background-color: #1f1f1f;    
-  }
+    
+}
