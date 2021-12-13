@@ -1,0 +1,16 @@
+.collection {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	box-sizing: border-box;
+	padding-bottom: 50px;
+}
+
+.collection .badge {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 33%;
+	height: 100px;
+}

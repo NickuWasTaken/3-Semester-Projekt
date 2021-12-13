@@ -1,7 +1,12 @@
+body {
+	background-color: #1f1f1f;
+}
+
 .profil {
 	width: 100%;
 	font-size: 22px;
 	font-family: 'Proxima Nova';
+	background-color: #f1f1f1;
 }
 
 .summary {
@@ -61,7 +66,7 @@
 
 .profil-links a {
 	height: 50px;
-	border-top: #f1f1f150 solid 1px;
+	border-bottom: #f1f1f150 solid 1px;
 }
 
 .bonus::before,
@@ -95,12 +100,4 @@
 	padding: 7px 20px;
 	border: #1f1f1f solid 1px;
 	border-radius: 5px;
-}
-
-.bottom-bgc {
-	height: 100%;
-	display: block;
-	width: 100%;
-	background-color: #1f1f1f;
-	border-top: #f1f1f150 1px solid;
 }

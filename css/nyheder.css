@@ -1,0 +1,21 @@
+#mainpic {
+	width: 100%;
+}
+
+.nyheder {
+	color: rgb(0, 217, 255);
+	margin: 1px;
+	text-decoration: underline;
+	margin-left: 20px;
+}
+
+.titel {
+	margin-top: 5px;
+	margin-left: 20px;
+	font-size: 22px;
+}
+
+p {
+	font-family: raleway;
+	margin: 10px 20px;
+}

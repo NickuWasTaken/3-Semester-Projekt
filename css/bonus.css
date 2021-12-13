@@ -1,0 +1,72 @@
+.wrapper {
+	background-color: #f1f1f1;
+	box-sizing: border-box;
+	padding: 5px 20px;
+}
+
+.coffee {
+	box-sizing: border-box;
+	padding: 5px 10px;
+	padding-bottom: 15px;
+	background-color: #1f1f1f;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+
+.wrapper h1 {
+	text-align: left;
+	margin-bottom: 5px;
+	font-family: 'proxima nova';
+	margin-left: 5px;
+}
+
+.coffee-wrap {
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.coffee-bought {
+	background: url('../img/green-coffee-cup.png') left no-repeat;
+	display: block;
+	height: 35px;
+	width: 20%;
+}
+
+.coffee-missing {
+	background: url('../img/coffee-cup.png') left no-repeat;
+	display: block;
+	height: 35px;
+	width: 20%;
+}
+
+.bonusses h1 {
+	color: #1f1f1f;
+}
+
+.bonus {
+	margin-top: 10px;
+	background-color: #fff;
+	border: 1px solid #dedede;
+	height: 80px;
+	border-radius: 3px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bonus .thumb {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30%;
+}
+
+.bonus p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+	font-size: 16px;
+	text-align: center;
+}

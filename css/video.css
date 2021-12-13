@@ -1,0 +1,28 @@
+h1 {
+	color: unset;
+	margin: unset;
+	text-align: unset;
+}
+
+.video-wrap {
+	margin: 0 20px auto;
+}
+
+.wall {
+	padding-top: 10px;
+	color: rgb(0, 217, 255);
+	margin: 1px;
+	text-decoration: underline;
+	font-family: raleway;
+}
+
+.titel {
+	margin-top: 5px;
+	font-size: 22px;
+	font-family: 'raleway';
+}
+
+.video-wrap p {
+	font-family: 'raleway';
+	margin: 10px 0;
+}
